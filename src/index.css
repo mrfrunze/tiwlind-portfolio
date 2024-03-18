@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* create custom class */
+@layer components{
+    .align-element{
+        @apply mx-auto max-w-7xl px-8
+    }
+}
+
+@layer components{
+    .text-element{
+        @apply h-16 w-16 text-emerald-500
+    }
+}
